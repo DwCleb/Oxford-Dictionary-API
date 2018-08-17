@@ -1,0 +1,18 @@
+<html>
+  <body>
+  <center>
+  <div style="text-align:center;width: 40%;margin-top:10%;">
+  <div>
+  <h2>Definition</h2>
+    <p>{{ definition }}</p>
+  </div> 
+  <div>
+  <h2>Example</h2>
+    {% for example in examples %}
+      <p>{{ example.text }}</p>
+    {% endfor %}
+  </div>
+  </div> 
+  </center>
+  </body>
+</html>
